@@ -45,7 +45,7 @@ docker run -d -it --name=my-nginx -p 8800:80 -v nginx-vol:/usr/share/nginx/html 
 docker run -d  -v 容器内目录  镜像名/id  # 匿名挂载
 ```
 
-匿名挂载后，使用 **docker volume ls **命令查看所有挂载的卷：
+匿名挂载后，使用 **docker volume ls** 命令查看所有挂载的卷：
 
 ![](.gitbook/assets/docker\_volume\_ls.png)
 
